@@ -1,0 +1,70 @@
+fieldset {
+    display: table;
+    border: 1px solid #d3d3d3;
+    margin: 15px auto 5px auto;
+    padding: 5px;
+    width: 95%;
+    border-radius: 5px;
+}
+
+legend {
+    height: auto;
+}
+
+legend {
+    color: #3551a3;
+    font-weight: bold;
+    font-size: medium;
+    padding: 5px;
+    background-color: #fff;
+    height: 32px;
+}
+
+.nvu-input-error {
+    background-color: #ffd;
+    border-color: red;
+}
+
+.nvu-question-tooltip {
+    background: url(data:image/gif;base64,R0lGODlhDwARANUAAGZmZv///9nZ2aCgoM/Pz4ODg2tra7KysoyMjNbW1uTk5PHx8fX19XZ2doGBgXBwcODg4Gpqar6+vqOjo/f3946Ojtvb24+Pj4aGhtfX129vb/v7+8TExO3t7ZaWlsXFxfb29u7u7vT09Hp6eqmpqcDAwIqKirOzs+Li4t/f3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACoALAAAAAAPABEAAAZ5QJVwSCwaj8hkMcBkIgMShAHgIIGMIQRgy20kAsONYzsQCA4PgEExLJEDhAODsL2AAybyZ3sIcBcqAVNcAAhzXBmBEYQecGlbCYEFhAIohAAdQieEAwOEGGAqFCNcZoQWRAoNWwWTWxyhQwsTGlwVKbFETBAQIrkqQQA7) no-repeat;
+    height: 20px;
+    width: 20px;
+}
+
+.tst-p {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.tst-datepicker {
+    padding: 0.5em;
+    font-family: sans-serif;
+    border-width: 0;
+
+    input {
+        font-size: inherit;
+        padding: 0.3em 0.4em;
+        margin: 0.1em 0.2em;
+        box-sizing: content-box;
+        border-width: 1px;
+        margin-right: 0;
+    }
+
+    input:focus {
+        /*outline: none;*/
+    }
+
+    button {
+        font-size: inherit;
+        padding: 0.3em 0.4em;
+        margin: 0.1em 0.2em;
+        box-sizing: content-box;
+        border-width: 1px;
+        margin-left: 0;
+    }
+
+    button:active,
+    button:focus {
+        outline: none;
+    }
+}
